@@ -35,13 +35,13 @@ function setupEditor() {
   window.editor = ace.edit("editor"); //making editor div as an editor
   editor.setTheme("ace/theme/tomorrow_night_blue"); // theme of the editor
   editor.getSession().setMode("ace/mode/html"); //editor mode
-  if (set_editor == 'html'){
+  if (set_editor == 'html' || set_editor == 'Html'){
   editor.setValue(
     nom_html,
     1
   ); //1 = moves cursor to end
   }
-  else if (set_editor == 'Boot' || set_editor == 'boot') {
+  else if (set_editor == 'Bootstrap' || set_editor == 'bootstrap' ) {
     editor.setValue(
       boot_html,
       1
