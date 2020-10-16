@@ -25,7 +25,9 @@ var boot_html = `<!DOCTYPE html>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
   </head>
   <body>
-    <p> Welcome </p>
+    <div class="container">
+      <h1 class="dislpay-3">Welcome </h1>
+    </div>
   </body>
 </html>`
 //setting up the editor
