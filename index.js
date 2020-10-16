@@ -26,7 +26,7 @@ var boot_html = `<!DOCTYPE html>
   </head>
   <body>
     <div class="container">
-      <h1 class="dislpay-3">Welcome </h1>
+      <h1 class="display-3">Welcome </h1>
     </div>
   </body>
 </html>`
